@@ -38,9 +38,22 @@
   
   <!-- Gaya khusus untuk cetak -->
   <style type="text/css" media="print">
+    
     /* Gaya khusus untuk cetak */
     @media print {
       /* Atur tata letak atau gaya lain untuk mencetak */
+      @media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1c1c1c;
+        color: white;
+    }
+    .markdown-body table tr {
+        background-color: #1c1c1c;
+    }
+    .markdown-body table tr:nth-child(2n) {
+        background-color: black;
+    }
+}
     }
   </style>
   
@@ -73,7 +86,7 @@
 <body onload="greetUser()">
   <!-- Header situs web -->
   <header>
-    <h1>Selamat datang di GitBlob</h1>
+  <center><h1 style="border-bottom:0px"> Selamat datang di GitBlob </h1></center>
     <nav>
       <ul>
         <li><a href="#tentang">Tentang</a></li>
