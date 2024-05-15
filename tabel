@@ -1,0 +1,1012 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Tabel</title>
+  <link rel="icon" type="image/svg+xml" href="/gitblob.svg">
+  <style>
+    /* Gaya CSS Anda */
+
+    /* Style untuk tengah-tengah */
+    .center {
+      text-align: center;
+    }
+
+    /* Membuat <thead> tetap di atas saat digulir */
+    thead {
+      position: sticky;
+      top: 0;
+      background-color: #f2f2f2;
+    }
+    /* Merubah font family */
+body {
+  font-family: Helvetica, Roboto; /* Contoh font family Arial */
+}
+
+/* Merubah ukuran font */
+h1 {
+  font-size: 24px; /* Contoh ukuran font 24px */
+}
+
+/* Merubah ketebalan font */
+p {
+  font-weight: bold; /* Contoh ketebalan font bold */
+}
+
+/* Merubah warna font */
+span {
+  color: red; /* Contoh warna font merah */
+}
+    
+table {
+  border-collapse: collapse;
+  width: 50%;
+  background-color: lightgray; /* warna latar belakang tabel */
+}
+    
+table {
+  width: 50%;
+  margin: 0 auto; /* Mengatur margin menjadi auto untuk posisi tengah */
+  text-align: center; /* Mengatur teks di dalam tabel menjadi rata tengah */
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 10px 20px; /* tambahkan jarak 10px atas/bawah dan 20px kanan/kiri */
+  text-align: left;
+  background-color: lightgray; /* warna latar belakang kolom */
+}
+
+th {
+  background-color: gray; /* warna latar belakang kolom header */
+}
+    
+th, td {
+  padding: 0 10px; /* 10px ruang kosong di sebelah kanan dan kiri */
+}
+
+    
+body {
+  background-color: #0a1c22;
+}
+
+  </style>
+</head>
+<body>
+
+<div class="center">
+  <h2>Tabel GitBlob</h2>
+</div>
+<table>
+        <!-- Judul tabel -->
+        <caption>Peta Pertumbuhan Equitas Akun 5068888</caption>
+        <thead>
+            <!-- Baris header -->
+            <tr>
+                <th>Level</th>
+                <th>Saldo Awal Perdagangan</th>
+                <th>Volume Order</th>
+                <th>Target Laba/Rugi</th>
+                <th>Jika Untung</th>
+                <th>Jika Rugi</th>
+                <th>Perkiraan Poin/Transaksi</th>
+                <th>Saldo Level Selanjutnya</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Baris data -->
+            <tr>
+                <td>78</td>
+                <td>$8,450.0</td>
+                <td>7.50</td>
+                <td>‎$750.00</td>
+                <td>‎$9,200.00</td>
+                <td>$7,700.00</td>
+                <td>120/15 (XV)</td>
+                <td>‎$9,200.00</td>
+            </tr>
+            <tr>
+                <td>77</td>
+                <td>$7,750.0</td>
+                <td>7.00</td>
+                <td>‎$700.00</td>
+                <td>‎$8,450.00</td>
+                <td>$7,050.00</td>
+                <td>120/15 (XV)</td>
+                <td>‎$8,450.00</td>
+            </tr>
+            <tr>
+                <td>76</td>
+                <td>$7,100.0</td>
+                <td>6.50</td>
+                <td>‎$650.00</td>
+                <td>‎$7,750.00</td>
+                <td>$6,450.00</td>
+                <td>120/15 (XV)</td>
+                <td>‎$7,750.00</td>
+            </tr>
+            <tr>
+                <td>75</td>
+                <td>$6,500.0</td>
+                <td>6.00</td>
+                <td>‎$600.00</td>
+                <td>‎$7,100.00</td>
+                <td>$5,900.00</td>
+                <td>120/15 (XV)</td>
+                <td>‎$7,100.00</td>
+            </tr>
+            <tr>
+                <td>74</td>
+                <td>$6,000.0</td>
+                <td>5.00</td>
+                <td>‎$500.00</td>
+                <td>‎$6,500.00</td>
+                <td>$5,500.00</td>
+                <td>120/15 (XV)</td>
+                <td>‎$6,500.00</td>
+            </tr>
+             <tr>
+                <td>73</td>
+                <td>$5,530.0</td>
+                <td>4.70</td>
+                <td>‎$470.00</td>
+                <td>‎$6,000.00</td>
+                <td>$5,060.00</td>
+                <td>120/15 (XV)</td>
+                <td>‎$6,000.00</td>
+            </tr>
+            <tr>
+                <td>72</td>
+                <td>$5,080.0</td>
+                <td>4.50</td>
+                <td>‎$450.00</td>
+                <td>‎$5,530.00</td>
+                <td>$4,630.00</td>
+                <td>120/15 (XV)</td>
+                <td>‎$5,530.00</td>
+            </tr>
+            <tr>
+                <td>71</td>
+                <td>‎$4,680.00</td>
+                <td>4.00</td>
+                <td>‎$400.00</td>
+                <td>‎$5,080.00</td>
+                <td>$4,280.00</td>
+                <td>120/15 (XV)</td>
+                <td>$5,080.00</td>
+            </tr>
+            <tr>
+                <td>70</td>
+                <td>‎$4,300.00</td>
+                <td>3.80</td>
+                <td>‎$380.00</td>
+                <td>‎$4,680.00</td>
+                <td>$3,920.00</td>
+                <td>120/15 (XV)</td>
+                <td>$4,680.00</td>
+            </tr>
+            <tr>
+                <td>69</td>
+                <td>‎$3,950.00</td>
+                <td>3.50</td>
+                <td>‎$350.00</td>
+                <td>‎$4,300.00</td>
+                <td>$3,600.00</td>
+                <td>120/15 (XV)</td>
+                <td>$4,300.00</td>
+            </tr>
+            <tr>
+                <td>68</td>
+                <td>‎$3,630.00</td>
+                <td>3.20</td>
+                <td>‎$320.00</td>
+                <td>‎$3,950.00</td>
+                <td>$3,310.00</td>
+                <td>120/15 (XV)</td>
+                <td>$2,380.00</td>
+            </tr>
+            <tr>
+                <td>67</td>
+                <td>‎$3,330.00</td>
+                <td>3.00</td>
+                <td>‎$300.00</td>
+                <td>‎$3,630.00</td>
+                <td>$3,030.00</td>
+                <td>120/15 (XV)</td>
+                <td>$3,630.00</td>
+            </tr>
+            <tr>
+                <td>66</td>
+                <td>‎$3,050.00</td>
+                <td>2.80</td>
+                <td>‎$280.00</td>
+                <td>‎$3,330.00</td>
+                <td>$2,770.00</td>
+                <td>120/15 (XV)</td>
+                <td>$3,330.00</td>
+            </tr>
+            <tr>
+                <td>65</td>
+                <td>$2,800.00</td>
+                <td>2.50</td>
+                <td>‎$250.00</td>
+                <td>‎$3,050.00</td>
+                <td>$2,550.00</td>
+                <td>120/15 (XV)</td>
+                <td>$3,050.00</td>
+            </tr>
+            <tr>
+                <td>64</td>
+                <td>‎$2,580.00</td>
+                <td>2.20</td>
+                <td>‎$220.00</td>
+                <td>‎$2,800.00</td>
+                <td>$2,360.00</td>
+                <td>120/15 (XV)</td>
+                <td>$2,800.00</td>
+            </tr>
+            <tr>
+                <td>63</td>
+                <td>‎$2,380.00</td>
+                <td>2.00</td>
+                <td>‎$200.00</td>
+                <td>‎$2,580.00</td>
+                <td>$2,180.00</td>
+                <td>120/15 (XV)</td>
+                <td>$2,580.00</td>
+            </tr>
+            <tr>
+                <td>62</td>
+                <td>‎$2,200.00</td>
+                <td>1.80</td>
+                <td>‎$180.00</td>
+                <td>‎$2,380.00</td>
+                <td>$2,020.00</td>
+                <td>120/15 (XV)</td>
+                <td>$2,380.00</td>
+            </tr>
+             <tr>
+                <td>61</td>
+                <td>‎$2,030.00</td>
+                <td>1.70</td>
+                <td>‎$170.00</td>
+                <td>‎$2,200.00</td>
+                <td>$1,860.00</td>
+                <td>120/15 (XV)</td>
+                <td>$2,200.00</td>
+            </tr>
+             <tr>
+                <td>60</td>
+                <td>‎$1,870.00</td>
+                <td>1.60</td>
+                <td>‎$160.00</td>
+                <td>‎$2,030.00</td>
+                <td>$1,710.00</td>
+                <td>120/15 (XV)</td>
+                <td>$2,030.00</td>
+            </tr>
+             <tr>
+                <td>59</td>
+                <td>‎$1,720.00</td>
+                <td>1.50</td>
+                <td>‎$150.00</td>
+                <td>‎$1,870.00</td>
+                <td>$1,570.00</td>
+                <td>120/15 (XV)</td>
+                <td>$1,870.00</td>
+            </tr>
+             <tr>
+                <td>58</td>
+                <td>‎$1,580.00</td>
+                <td>1.40</td>
+                <td>‎$140.00</td>
+                <td>‎$1,720.00</td>
+                <td>$1,440.00</td>
+                <td>120/15 (XV)</td>
+                <td>$1,720.00</td>
+            </tr>
+             <tr>
+                <td>57</td>
+                <td>‎$1,450.00</td>
+                <td>1.30</td>
+                <td>‎$130.00</td>
+                <td>‎$1,580.00</td>
+                <td>$1,320.00</td>
+                <td>120/15 (XV)</td>
+                <td>$1,580.00</td>
+            </tr>
+             <tr>
+                <td>56</td>
+                <td>‎$1,330.00</td>
+                <td>1.20</td>
+                <td>‎$120.00</td>
+                <td>‎$1,450.00</td>
+                <td>$1,210.00</td>
+                <td>120/15 (XV)</td>
+                <td>$1,450.00</td>
+            </tr>
+             <tr>
+                <td>55</td>
+                <td>‎$1,220.00</td>
+                <td>1.10</td>
+                <td>‎$110.00</td>
+                <td>‎$1,330.00</td>
+                <td>$1,110.00</td>
+                <td>120/15 (XV)</td>
+                <td>$1,330.00</td>
+            </tr>
+             <tr>
+                <td>54</td>
+                <td>‎$1,120.00</td>
+                <td>1.00</td>
+                <td>‎$100.00</td>
+                <td>‎$1,220.00</td>
+                <td>$1,020.00</td>
+                <td>120/15 (XV)</td>
+                <td>$1,220.00</td>
+            </tr>
+             <tr>
+                <td>53</td>
+                <td>‎$1,030.00</td>
+                <td>0.90</td>
+                <td>‎$90.00</td>
+                <td>‎$1,120.00</td>
+                <td>$940.00</td>
+                <td>120/15 (XV)</td>
+                <td>$1,120.00</td>
+            </tr>
+             <tr>
+                <td>52</td>
+                <td>‎$950.00</td>
+                <td>0.80</td>
+                <td>‎$80.00</td>
+                <td>‎$1,030.00</td>
+                <td>$870.00</td>
+                <td>120/15 (XV)</td>
+                <td>$1,030.00</td>
+            </tr>
+             <tr>
+                <td>51</td>
+                <td>‎$875.00</td>
+                <td>0.75</td>
+                <td>‎$75.00</td>
+                <td>‎$950.00</td>
+                <td>$800.00</td>
+                <td>120/15 (XV)</td>
+                <td>$950.00</td>
+            </tr>
+             <tr>
+                <td>50</td>
+                <td>‎$805.00</td>
+                <td>0.70</td>
+                <td>‎$70.00</td>
+                <td>‎$875.00</td>
+                <td>$735.00</td>
+                <td>120/15 (XV)</td>
+                <td>$875.00</td>
+            </tr>
+             <tr>
+                <td>49</td>
+                <td>‎$740.00</td>
+                <td>0.65</td>
+                <td>‎$65.00</td>
+                <td>‎$805.00</td>
+                <td>$675.00</td>
+                <td>120/15 (XV)</td>
+                <td>$805.00</td>
+            </tr>
+             <tr>
+                <td>48</td>
+                <td>‎$680.00</td>
+                <td>0.60</td>
+                <td>‎$60.00</td>
+                <td>‎$740.00</td>
+                <td>$620.00</td>
+                <td>120/15 (XV)</td>
+                <td>$740.00</td>
+            </tr>
+             <tr>
+                <td>47</td>
+                <td>‎$625.00</td>
+                <td>0.55</td>
+                <td>‎$55.00</td>
+                <td>‎$680.00</td>
+                <td>$570.00</td>
+                <td>120/15 (XV)</td>
+                <td>$680.00</td>
+            </tr>
+             <tr>
+                <td>46</td>
+                <td>‎$575.00</td>
+                <td>0.50</td>
+                <td>‎$50.00</td>
+                <td>‎$625.00</td>
+                <td>$525.00</td>
+                <td>120/15 (XV)</td>
+                <td>$625.00</td>
+            </tr>
+             <tr>
+                <td>45</td>
+                <td>‎$528.00</td>
+                <td>0.47</td>
+                <td>‎$47.00</td>
+                <td>‎$575.00</td>
+                <td>$481.00</td>
+                <td>120/15 (XV)</td>
+                <td>$575.00</td>
+            </tr>
+             <tr>
+                <td>44</td>
+                <td>‎$485.00</td>
+                <td>0.43</td>
+                <td>‎$43.00</td>
+                <td>‎$528.00</td>
+                <td>$442.00</td>
+                <td>120/15 (XV)</td>
+                <td>$528.00</td>
+            </tr>
+             <tr>
+                <td>43</td>
+                <td>‎$445.00</td>
+                <td>0.40</td>
+                <td>‎$40.00</td>
+                <td>‎$485.00</td>
+                <td>$405.00</td>
+                <td>120/15 (XV)</td>
+                <td>$485.00</td>
+            </tr>
+             <tr>
+                <td>42</td>
+                <td>‎$410.00</td>
+                <td>0.35</td>
+                <td>‎$35.00</td>
+                <td>‎$445.00</td>
+                <td>$375.00</td>
+                <td>120/15 (XV)</td>
+                <td>$445.00</td>
+            </tr>
+             <tr>
+                <td>41</td>
+                <td>‎$380.00</td>
+                <td>0.30</td>
+                <td>‎$30.00</td>
+                <td>‎$410.00</td>
+                <td>$350.00</td>
+                <td>120/15 (XV)</td>
+                <td>$410.00</td>
+            </tr>
+             <tr>
+                <td>40</td>
+                <td>‎$352.00</td>
+                <td>0.28</td>
+                <td>‎$28.00</td>
+                <td>‎$380.00</td>
+                <td>$324.00</td>
+                <td>120/15 (XV)</td>
+                <td>$380.00</td>
+            </tr>
+             <tr>
+                <td>39</td>
+                <td>‎$327.00</td>
+                <td>0.25</td>
+                <td>‎$25.00</td>
+                <td>‎$352.00</td>
+                <td>$302.00</td>
+                <td>120/15 (XV)</td>
+                <td>$352.00</td>
+            </tr>
+             <tr>
+                <td>38</td>
+                <td>‎$304.00</td>
+                <td>0.23</td>
+                <td>‎$23.00</td>
+                <td>‎$327.00</td>
+                <td>$281.00</td>
+                <td>120/15 (XV)</td>
+                <td>$327.00</td>
+            </tr>
+             <tr>
+                <td>37</td>
+                <td>‎$283.00</td>
+                <td>0.21</td>
+                <td>‎$21.00</td>
+                <td>‎$304.00</td>
+                <td>$262.00</td>
+                <td>120/15 (XV)</td>
+                <td>$304.00</td>
+            </tr>
+             <tr>
+                <td>36</td>
+                <td>‎$263.00</td>
+                <td>0.20</td>
+                <td>‎$20.00</td>
+                <td>‎$283.00</td>
+                <td>$243.00</td>
+                <td>120/15 (XV)</td>
+                <td>$283.00</td>
+            </tr>
+             <tr>
+                <td>35</td>
+                <td>‎$244.00</td>
+                <td>0.19</td>
+                <td>‎$19.00</td>
+                <td>‎$263.00</td>
+                <td>$225.00</td>
+                <td>120/15 (XV)</td>
+                <td>$263.00</td>
+            </tr>
+             <tr>
+                <td>34</td>
+                <td>‎$226.00</td>
+                <td>0.18</td>
+                <td>‎$18.00</td>
+                <td>‎$244.00</td>
+                <td>$208.00</td>
+                <td>120/15 (XV)</td>
+                <td>$244.00</td>
+            </tr>
+             <tr>
+                <td>33</td>
+                <td>‎$209.00</td>
+                <td>0.17</td>
+                <td>‎$17.00</td>           
+                <td>‎$226.00</td>
+                <td>$192.00</td>
+                <td>120/15 (XV)</td>
+                <td>$226.00</td>
+            </tr>
+             <tr>
+                <td>32</td>
+                <td>‎$193.00</td>
+                <td>0.16</td>
+                <td>‎$16.00</td>             
+                <td>‎$209.00</td>
+                <td>$177.00</td>
+                <td>120/15 (XV)</td>
+                <td>$209.00</td>
+            </tr>
+             <tr>
+                <td>31</td>
+                <td>‎$178.00</td>
+                <td>0.15</td>
+                <td>‎$15.00</td>            
+                <td>‎$193.00</td>
+                <td>$163.00</td>
+                <td>120/15 (XV)</td>
+                <td>$193.00</td>
+            </tr>
+             <tr>
+                <td>30</td>
+                <td>‎$164.00</td>
+                <td>0.14</td>
+                <td>‎$14.00</td>               
+                <td>‎$178.00</td>
+                <td>$150.00</td>
+                <td>120/15 (XV)</td>
+                <td>$178.00</td>
+            </tr>
+             <tr>
+                <td>29</td>
+                <td>‎$151.00</td>
+                <td>0.13</td>
+                <td>‎$13.00</td>              
+                <td>‎$164.00</td>
+                <td>$138.00</td>
+                <td>120/15 (XV)</td>
+                <td>$164.00</td>
+            </tr>
+             <tr>
+                <td>28</td>
+                <td>‎$139.00</td>
+                <td>0.12</td>
+                <td>‎$12.00</td>             
+                <td>‎$151.00</td>
+                <td>$127.00</td>
+                <td>120/15 (XV)</td>
+                <td>$151.00</td>
+            </tr>
+             <tr>
+                <td>27</td>
+                <td>‎$128.00</td>
+                <td>0.11</td>
+                <td>‎$11.00</td>                
+                <td>‎$139.00</td>
+                <td>$117.00</td>
+                <td>120/15 (XV)</td>
+                <td>$139.00</td>
+            </tr>
+             <tr>
+                <td>26</td>
+                <td>‎$118.00</td>
+                <td>0.10</td>
+                <td>‎$10.00</td>            
+                <td>‎$128.00</td>
+                <td>$108.00</td>
+                <td>120/15 (XV)</td>
+                <td>$128.00</td>
+            </tr>
+             <tr>
+                <td>25</td>
+                <td>‎$109.00</td>
+                <td>0.09</td>
+                <td>‎$9.00</td>             
+                <td>‎$118.00</td>
+                <td>$100.00</td>
+                <td>120/15 (XV)</td>
+                <td>$118.00</td>
+            </tr>
+             <tr>
+                <td>24</td>
+                <td>‎$100.00</td>
+                <td>0.09</td>
+                <td>‎$9.00</td>           
+                <td>‎$109.00</td>
+                <td>$91.00</td>
+                <td>120/15 (XV)</td>
+                <td>$109.00</td>
+            </tr>
+             <tr>
+                <td>23</td>
+                <td>‎$92.00</td>
+                <td>0.08</td>
+                <td>‎$8.00</td>              
+                <td>‎$100.00</td>
+                <td>$84.00</td>
+                <td>120/15 (XV)</td>
+                <td>$100.00</td>
+            </tr>
+             <tr>
+                <td>22</td>
+                <td>‎$85.00</td>
+                <td>0.07</td>
+                <td>‎$7.00</td>        
+                <td>‎$92.00</td>
+                <td>$78.00</td>
+                <td>120/15 (XV)</td>
+                <td>$92.00</td>
+            </tr>
+            <tr>
+                <td>21</td>
+                <td>‎$79.00</td>
+                <td>0.06</td>
+                <td>‎$6.00</td>             
+                <td>‎$85.00</td>
+                <td>$73.00</td>
+                <td>120/15 (XV)</td>
+                <td>$85.00</td>
+            </tr>
+             <tr>
+                <td>20</td>
+                <td>‎$73.00</td>
+                <td>0.06</td>
+                <td>‎$6.00</td>           
+                <td>‎$79.00</td>
+                <td>$67.00</td>
+                <td>120/15 (XV)</td>
+                <td>$79.00</td>
+            </tr>
+             <tr>
+                <td>19</td>
+                <td>‎$68.00</td>
+                <td>0.05</td>
+                <td>‎$5.00</td>                
+                <td>‎$73.00</td>
+                <td>$63.00</td>
+                <td>120/15 (XV)</td>
+                <td>$73.00</td>
+            </tr>
+             <tr>
+                <td>18</td>
+                <td>‎$63.00</td>
+                <td>0.05</td>
+                <td>‎$5.00</td>              
+                <td>‎$68.00</td>
+                <td>$58.00</td>
+                <td>120/15 (XV)</td>
+                <td>$68.00</td>
+            </tr>
+             <tr>
+                <td>17</td>
+                <td>‎$59.00</td>
+                <td>0.04</td>
+                <td>‎$4.00</td>               
+                <td>‎$63.00</td>
+                <td>$55.00</td>
+                <td>120/15 (XV)</td>
+                <td>$63.00</td>
+            </tr>
+             <tr>
+                <td>16</td>
+                <td>‎$55.00</td>
+                <td>0.04</td>
+                <td>‎$4.00</td>         
+                <td>‎$59.00</td>
+                <td>$41.00</td>
+                <td>120/15 (XV)</td>
+                <td>$59.00</td>
+            </tr>
+             <tr>
+                <td>15</td>
+                <td>‎$51.00</td>
+                <td>0.04</td>
+                <td>‎$4.00</td>                
+                <td>‎$55.00</td>
+                <td>$47.00</td>
+                <td>120/15 (XV)</td>
+                <td>$55.00</td>
+            </tr>
+             <tr>
+                <td>14</td>
+                <td>‎$47.00</td>
+                <td>0.04</td>
+                <td>‎$4.00</td>               
+                <td>‎$51.00</td>
+                <td>$43.00</td>
+                <td>120/15 (XV)</td>
+                <td>$51.00</td>
+            </tr>
+             <tr>
+                <td>13</td>
+                <td>‎$44.00</td>
+                <td>0.03</td>
+                <td>‎$3.00</td>           
+                <td>‎$47.00</td>
+                <td>$39.00</td>
+                <td>120/15 (XV)</td>
+                <td>$47.00</td>
+            </tr>
+             <tr>
+                <td>12</td>
+                <td>‎$41.00</td>
+                <td>0.03</td>
+                <td>‎$3.00</td>            
+                <td>‎$44.00</td>
+                <td>$39.00</td>
+                <td>120/15 (XV)</td>
+                <td>$44.00</td>
+            </tr>
+             <tr>
+                <td>11</td>
+                <td>‎$39.00</td>
+                <td>0.03</td>
+                <td>‎$3.00</td>                
+                <td>‎$41.00</td>
+                <td>$36.00</td>
+                <td>120/15 (XV)</td>
+                <td>$41.00</td>
+            </tr>
+             <tr>
+                <td>10</td>
+                <td>‎$36.00</td>
+                <td>0.03</td>
+                <td>‎$3.00</td>                
+                <td>‎$39.00</td>
+                <td>$33.00</td>
+                <td>120/15 (XV)</td>
+                <td>$39.00</td>
+            </tr>
+            <tr>
+                <td>9</td>
+                <td>‎$33.00</td>
+                <td>0.03</td>
+                <td>‎$3.00</td>               
+                <td>‎$36.00</td>
+                <td>$30.00</td>
+                <td>120/15 (XV)</td>
+                <td>$36.00</td>
+            </tr>
+            <tr>
+                <td>8</td>
+                <td>‎$31.00</td>
+                <td>0.02</td>
+                <td>‎$2.00</td>                
+                <td>‎$33.00</td>
+                <td>$29.00</td>
+                <td>120/15 (XV)</td>
+                <td>$33.00</td>
+            </tr>
+            <tr>
+                <td>7</td>
+                <td>‎$29.00</td>
+                <td>0.02</td>
+                <td>‎$2.00</td>               
+                <td>‎$31.00</td>
+                <td>$27.00</td>
+                <td>120/15 (XV)</td>
+                <td>$31.00</td>
+            </tr>
+            <tr>
+                <td>6</td>
+                <td>‎$27.00</td>
+                <td>0.02</td>
+                <td>‎$2.00</td>              
+                <td>‎$29.00</td>
+                <td>$25.00</td>
+                <td>120/15 (XV)</td>
+                <td>$29.00</td>
+            </tr>
+            <tr>
+                <td>5</td>
+                <td>‎$25.00</td>
+                <td>0.02</td>
+                <td>‎$2.00</td>       
+                <td>‎$27.00</td>
+                <td>$23.00</td>
+                <td>120/15 (XV)</td>
+                <td>$27.00</td>
+            </tr>
+            <tr>
+                <td>4</td>
+                <td>‎$23.00</td>
+                <td>0.02</td>
+                <td>‎$2.00</td>             
+                <td>‎$25.00</td>
+                <td>$21.00</td>
+                <td>120/15 (XV)</td>
+                <td>$25.00</td>
+            </tr>
+            <tr>
+                <td>3</td>
+                <td>‎$21.00</td>
+                <td>0.01</td>
+                <td>‎$2.00</td>          
+                <td>‎$23.00</td>
+                <td>$19.00</td>
+                <td>208/15 (XV)</td>
+                <td>$23.00</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>‎$19.00</td>
+                <td>0.01</td>
+                <td>‎$2.00</td>         
+                <td>‎$21.00</td>
+                <td>$17.00</td>
+                <td>208/14 (XIV)</td>
+                <td>$21.00</td>
+            </tr>
+            <tr>
+                <td>1</td>
+                <td>$18.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$19.00</td>
+                <td>$17.00</td>
+                <td>108/10 (X)</td>
+                <td>$19.00</td>
+            </tr>
+             <tr>
+                <td>0</td>
+                <td>$17.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$18.00</td>
+                <td>$17.00</td>
+                <td>108/10 (X)</td>
+                <td>$18.00</td>
+            </tr>
+             <tr>
+                <td>-1</td>
+                <td>$16.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$17.00</td>
+                <td>$16.00</td>
+                <td>108/10 (X)</td>
+                <td>$17.00</td>
+            </tr>
+             <tr>
+                <td>-2</td>
+                <td>$15.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$16.00</td>
+                <td>$14.00</td>
+                <td>108/10 (X)</td>
+                <td>$16.00</td>
+            </tr>
+            <tr>
+                <td>-3</td>
+                <td>$14.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$15.00</td>
+                <td>$13.00</td>
+                <td>108/10 (X)</td>
+                <td>$15.00</td>
+            </tr>
+            <tr>
+                <td>-4</td>
+                <td>$13.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$14.00</td>
+                <td>$12.00</td>
+                <td>108/10 (X)</td>
+                <td>$14.00</td>
+            </tr>
+             <tr>
+                <td>-5</td>
+                <td>$12.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$13.00</td>
+                <td>$11.00</td>
+                <td>108/10 (X)</td>
+                <td>$13.00</td>
+            </tr>
+            <tr>
+                <td>-6</td>
+                <td>$11.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$12.00</td>
+                <td>$10.00</td>
+                <td>108/10 (X)</td>
+                <td>$12.00</td>
+            </tr>
+             <tr>
+                <td>-7</td>
+                <td>$10.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$11.00</td>
+                <td>$9.00</td>
+                <td>108/10 (X)</td>
+                <td>$11.00</td>
+            </tr>
+             <tr>
+                <td>-8</td>
+                <td>$9.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$10.00</td>
+                <td>$8.00</td>
+                <td>108/10 (X)</td>
+                <td>$10.00</td>
+            </tr>
+            <tr>
+                <td>-9</td>
+                <td>$8.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$9.00</td>
+                <td>$7.00</td>
+                <td>108/10 (X)</td>
+                <td>$9.00</td>
+            </tr>
+             <tr>
+                <td>-10</td>
+                <td>$7.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$8.00</td>
+                <td>$6.00</td>
+                <td>108/10 (X)</td>
+                <td>$8.00</td>
+            </tr>
+            <tr>
+                <td>-11</td>
+                <td>$6.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$7.00</td>
+                <td>$5.00</td>
+                <td>108/10 (X)</td>
+                <td>$7.00</td>
+            </tr>
+             <tr>
+                <td>-12</td>
+                <td>$5.00</td>
+                <td>‎0.01</td>
+                <td>‎$1.00</td>           
+                <td>‎$6.00</td>
+                <td>$4.00</td>
+                <td>108/10 (X)</td>
+                <td>$6.00</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
