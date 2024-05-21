@@ -178,6 +178,24 @@ h2 {
       text-align: center; /* Membuat teks caption menjadi rata tengah */
       caption-side: top; /* Menempatkan caption di atas tabel */
     }
+        .custom-td {
+  position: relative;
+}
+
+.tanggal {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.harga-lime {
+  margin-top: 20px; /* Sesuaikan sesuai kebutuhan */
+}
+
+.percentage {
+  font-size: 0.8em;
+}
+
 
 </style>
 </head>
@@ -205,11 +223,11 @@ h2 {
       <td>Jumat</td>
       <td></td>
       <td>Rabu</td>
-      <td style="text-align: center;">
-        <div class="tanggal" style="margin-bottom: 5px;">Sabtu</div>
-        <div class="harga-lime" style="margin-bottom: 5px;">+$?</div>
-        <div style="font-size: 0.8em;">+?%</div>
-      </td>
+      <td class="custom-td">
+  <div class="tanggal">Sabtu</div>
+  <div class="harga-lime">+$?</div>
+  <div class="percentage">+?%</div>
+</td>
     </tr>
     <tr>
       <td>30</td>
