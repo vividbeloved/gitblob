@@ -1,81 +1,185 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>GitBlob</title>
-  <link rel="icon" type="image/svg+xml" href="/gitblob.svg">
-  <style>
-    /* Gaya CSS Anda */
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Tabel GitBlob</title>
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="logo-container">
+    <!-- SVG logo akan ditampilkan di sini -->
+    <svg viewBox="0 0 64 64" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" width="32" height="32">
+        <!-- Definisi gradien -->
+        <defs>
+            <linearGradient id="gradient1" x1="0%" x2="100%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#41D1FF"></stop>
+                <stop offset="100%" stop-color="#BD34FE"></stop>
+            </linearGradient>
+            <linearGradient id="gradient2" x1="43.376%" x2="50.316%" y1="2.242%" y2="89.03%">
+                <stop offset="0%" stop-color="#FFEA83"></stop>
+                <stop offset="8.333%" stop-color="#FFDD35"></stop>
+                <stop offset="100%" stop-color="#FFA800"></stop>
+            </linearGradient>
+        </defs>
+        
+        <g transform="translate(0.00630876,-0.00301984)">
+            <!-- Menggunakan gradien untuk isi path -->
+            <path fill="url(#gradient1)" d="m63.033,39.744c-4.274,17.143-21.637,27.576-38.782,23.301-17.138-4.274-27.571-21.638-23.295-38.78,4.272-17.145,21.635-27.579,38.775-23.305,17.144,4.274,27.576,21.64,23.302,38.784z"></path>
+            <!-- Menggunakan gradien untuk isi path -->
+            <path fill="url(#gradient2)" d="m46.103,27.444c0.637-4.258-2.605-6.547-7.038-8.074l1.438-5.768-3.511-0.875-1.4,5.616c-0.923-0.23-1.871-0.447-2.813-0.662l1.41-5.653-3.509-0.875-1.439,5.766c-0.764-0.174-1.514-0.346-2.242-0.527l0.004-0.018-4.842-1.209-0.934,3.75s2.605,0.597,2.55,0.634c1.422,0.355,1.679,1.296,1.636,2.042l-1.638,6.571c0.098,0.025,0.225,0.061,0.365,0.117-0.117-0.029-0.242-0.061-0.371-0.092l-2.296,9.205c-0.174,0.432-0.615,1.08-1.609,0.834,0.035,0.051-2.552-0.637-2.552-0.637l-1.743,4.019,4.569,1.139c0.85,0.213,1.683,0.436,2.503,0.646l-1.453,5.834,3.507,0.875,1.439-5.772c0.958,0.26,1.888,0.5,2.798,0.726l-1.434,5.745,3.511,0.875,1.453-5.823c5.987,1.133,10.489,0.676,12.384-4.739,1.527-4.36-0.076-6.875-3.226-8.515,2.294-0.529,4.022-2.038,4.483-5.155zm-8.022,11.249c-1.085,4.36-8.426,2.003-10.806,1.412l1.928-7.729c2.38,0.594,10.012,1.77,8.878,6.317zm1.086-11.312c-0.99,3.966-7.1,1.951-9.082,1.457l1.748-7.01c1.982,0.494,8.365,1.416,7.334,5.553z"></path>
+        </g>
+    </svg>
 
-    /* Style untuk tengah-tengah */
-    .center {
-      text-align: center;
+    <!-- SVG logo tambahan di pojok kanan atas -->
+    <svg viewBox="0 0 64 64" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" version="1.1" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" width="32" height="32" id="additional-logo" style="position: absolute; top: 0; right: 0;">
+        <!-- Definisi gradien untuk logo tambahan -->
+        <defs>
+            <linearGradient id="gradient3" x1="0%" x2="100%" y1="0%" y2="100%">
+                <stop offset="0%" stop-color="#FFEA83"></stop>
+                <stop offset="8.333%" stop-color="#FFDD35"></stop>
+                <stop offset="100%" stop-color="#FFA800"></stop>
+            </linearGradient>
+        </defs>
+        
+        <!-- Isi path untuk logo tambahan -->
+        <path fill="url(#gradient3)" d="M12,12h40v40h-40v-40z"></path>
+    </svg>
+</div>
+
+    <!-- Gaya CSS untuk tabel -->
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 80%; /* Lebar tabel diatur menjadi 80% */
+            margin: 0 auto; /* Tabel ditempatkan di tengah halaman */
+        }
+       body {
+            font-family: Helvetica, Roboto; /* Contoh font family Arial */
+        }
+        th, td {
+            border: 1px solid #dddddd;
+            text-align: center; /* Teks diatur menjadi tengah */
+            padding: 15px; /* Padding diatur menjadi 15px */
+        }
+        th {
+            background-color: #030128; /* Warna hitam paling atas */
+            color: white;
+            font-weight: bold; /* Teks pada header diperbold */
+        }
+        tr:last-child td {
+            background-color: #506888; /* Warna biru muda paling bawah */
+        }
+        caption {
+            font-size: 24px; /* Ukuran teks judul diperbesar */
+            font-weight: bold; /* Teks judul diperbold */
+            text-align: center; /* Teks judul diatur menjadi tengah */
+            margin-bottom: 10px; /* Jarak bawah judul dari tabel */
+        }
+        #image-container {
+            text-align: center; /* Teks diatur menjadi tengah */
+            margin-top: 20px; /* Jarak atas gambar dari tabel */
     }
+        /* Style untuk tombol */
+.button {
+  background-color: #1a1a1a; /* Warna latar belakang */
+  border: none; /* Tanpa border */
+  color: white; /* Warna teks */
+  padding: 15px 32px; /* Padding di dalam tombol */
+  text-align: center; /* Teks tengah */
+  text-decoration: none; /* Tanpa dekorasi teks */
+  display: inline-block; /* Tampilan inline */
+  font-size: 16px; /* Ukuran teks */
+  margin: 4px 2px; /* Margin */
+  cursor: pointer; /* Kursor pointer */
+  border-radius: 8px; /* Sudut */
+}
 
-    /* Membuat <thead> tetap di atas saat digulir */
-    thead {
-      position: sticky;
-      top: 0;
-      background-color: #f2f2f2;
-    }
-    /* Merubah font family */
+/* Hover efek */
+.button:hover {
+  background-color: #030128; /* Warna latar belakang saat hover */
+}
 body {
-  font-family: Helvetica, Roboto; /* Contoh font family Arial */
+    background-color: black;
+    color: white; /* Optional: Mengubah warna teks menjadi putih untuk kontras yang lebih baik */
+}
+ /* Keterangan kode */
+button {
+  /* Mengatur sudut lengkungan border tombol */
+  border-radius: 8px;
+  /* Mengatur border dengan ketebalan 1px dan transparan */
+  border: 1px solid transparent;
+  /* Padding di sekitar isi tombol */
+  padding: 0.6em 1.2em;
+  /* Ukuran font tombol */
+  font-size: 1em;
+  /* Ketebalan font tombol */
+  font-weight: 500;
+  /* Font family mengikuti font yang diwariskan */
+  font-family: inherit;
+  /* Warna latar belakang tombol */
+  background-color: #1a1a1a;
+  /* Menjadikan kursor berubah menjadi pointer saat mengarahkan ke tombol */
+  cursor: pointer;
+  /* Efek transisi pada border color saat tombol berubah keadaan */
+  transition: border-color 0.25s;
+  /* Warna teks tombol */
+  color: #ffffff; /* Mengubah warna teks menjadi putih */
 }
 
-/* Merubah ukuran font */
-h1 {
-  font-size: 24px; /* Contoh ukuran font 24px */
+/* Efek hover pada tombol */
+button:hover {
+  border-color: #646cff;
 }
 
-/* Merubah ketebalan font */
-p {
-  font-weight: bold; /* Contoh ketebalan font bold */
+/* Efek focus pada tombol */
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
 }
 
-/* Merubah warna font */
-span {
-  color: red; /* Contoh warna font merah */
-}
-    
-table {
-  border-collapse: collapse;
-  width: 50%;
-  background-color: darkgreen; /* warna latar belakang tabel */
-}
-    
-table {
-  width: 50%;
-  margin: 0 auto; /* Mengatur margin menjadi auto untuk posisi tengah */
-  text-align: center; /* Mengatur teks di dalam tabel menjadi rata tengah */
-}
-
-th, td {
-  border: 1px solid black;
-  padding: 10px 20px; /* tambahkan jarak 10px atas/bawah dan 20px kanan/kiri */
-  text-align: left;
-  background-color: indigo; /* warna latar belakang kolom */
+/* Pengaturan warna saat tema terang aktif */
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  /* Efek hover pada tautan saat tema terang aktif */
+  a:hover {
+    color: #747bff;
+  }
+  /* Pengaturan tombol saat tema terang aktif */
+  button {
+    background-color: #661851;
+  }
 }
 
-th {
-  background-color: darkgreen; /* warna latar belakang kolom header */
-}
-    
-th, td {
-  padding: 0 10px; /* 10px ruang kosong di sebelah kanan dan kiri */
+/* Mengubah warna teks menjadi hijau */
+.copy-btn {
+  color: #00ff00; /* Warna hijau */
 }
 
-    
-body {
-  background-color: #0a1c22;
-}
-    
-.persen-lime {
+.harga-lime {
   color: lime; /* Warna lime */
 }
 
-  </style>
+h2 {
+      text-align: center;
+    }
+
+    /* Untuk membuat caption di tengah dan sesuai lebar tabel */
+    table {
+      margin: 0 auto; /* Menengahkan tabel */
+      width: 80%; /* Atur lebar tabel, disesuaikan dengan kebutuhan */
+    }
+    caption {
+      text-align: center; /* Membuat teks caption menjadi rata tengah */
+      caption-side: top; /* Menempatkan caption di atas tabel */
+    }
+
+</style>
 </head>
 <body>
 
