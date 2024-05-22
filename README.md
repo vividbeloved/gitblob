@@ -17,17 +17,17 @@ Public Key (compressed, 66 characters [0-9A-F]):
 Private Key WIF
 51 characters base58, starts with a '5'
 
-    5J8K
+    5J8K...
 
 Private Key WIF Compressed
 52 characters base58, starts with a 'K' or 'L'
 
-    KxbL4
+    KxbL4...
 
 Private Key Hexadecimal Format (64 characters [0-9A-F]):
 
-    28F578
+    28F578...
 
 Private Key Base64 (44 characters):
 
-    KPV4V
+    KPV4V...
