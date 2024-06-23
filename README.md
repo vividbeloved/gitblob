@@ -1,8 +1,8 @@
-# Great Investment Tactics Bring Lucrative Opportunities Bitcoiners
+# Peluang Bisnis Bitcoin dan lainnya
 
-    Great Investment Tactics Bring Lucrative Opportunities Bitcoiners
+    PBB Peluang Bisnis Bitcoin 
 
-Alamat Bitcoin GitBlob
+Alamat Bitcoin PBB
 
     1BitcoinX1PpTdriS5pNUh7RSD3eggp6HK
 
